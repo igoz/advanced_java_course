@@ -1,8 +1,5 @@
 package edu.technopolis.homework;
 
-/**
- * Created by Igor on 26.10.2016.
- */
 public class Matrix {
     private int[][] data;
     private int numberOfRows;
