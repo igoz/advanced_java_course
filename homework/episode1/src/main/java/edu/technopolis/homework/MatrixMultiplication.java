@@ -34,8 +34,8 @@ public class MatrixMultiplication {
             throw new IllegalArgumentException("Invalid number of arguments");
         }
 
-        int[][] firstArray = new int[n][m];
-        int[][] secondArray = new int[k][j];
+        long[][] firstArray = new long[n][m];
+        long[][] secondArray = new long[k][j];
 
         for (int i = 0; i < n; i++) {
             for (int l = 0; l < m; l++) {
