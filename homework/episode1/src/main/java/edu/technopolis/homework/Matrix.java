@@ -1,11 +1,11 @@
 package edu.technopolis.homework;
 
 public class Matrix {
-    private int[][] data;
+    private long[][] data;
     private int numberOfRows;
     private int numberOfCols;
 
-    public Matrix(int[][] data) {
+    public Matrix(long[][] data) {
         this.numberOfRows = data.length;
         if (numberOfRows > 0) {
             this.numberOfCols = data[0].length;
@@ -24,7 +24,7 @@ public class Matrix {
         return numberOfCols;
     }
 
-    public int elementAt(int row, int col) {
+    public long elementAt(int row, int col) {
         if (row < numberOfRows && col < numberOfCols &&
                 row >= 0 && col >= 0){
             return data[row][col];
@@ -37,7 +37,7 @@ public class Matrix {
         if (numberOfCols != secondMatrix.getNumberOfRows()) {
             throw new IllegalArgumentException("Cannot multiply matrices with such dimensions");
         } else {
-            int[][] result = new int[numberOfRows][secondMatrix.getNumberOfCols()];
+            long[][] result = new long[numberOfRows][secondMatrix.getNumberOfCols()];
             for (int i = 0; i < numberOfRows; i++) {
                 for (int j = 0; j < secondMatrix.getNumberOfCols(); j++) {
                     result[i][j] = 0;
