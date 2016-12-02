@@ -1,0 +1,70 @@
+[{
+  "name": "Pikachu",
+  "level": 1,
+  "hp": 35,
+  "attack": 55,
+  "defence": 5,
+  "elementType": "ELECTRIC",
+  "moves": [
+    {
+      "name": "THUNDER SHOCK",
+      "damage": 40,
+      "elementType": "ELECTRIC",
+      "cost": 40
+    },
+    {
+      "name": "TAIL WHIP",
+      "damage": 30,
+      "elementType": "NORMAL",
+      "cost": 20
+    },
+    {
+      "name": "DISCHARGE",
+      "damage": 80,
+      "elementType": "ELECTRIC",
+      "cost": 80
+    },
+    {
+      "name": "THUNDERBOLT",
+      "damage": 60,
+      "elementType": "ELECTRIC",
+      "cost": 60
+      
+    }
+  ]
+},
+{
+  "name": "Charizard",
+  "level": 1,
+  "hp": 39,
+  "attack": 52,
+  "defence": 5,
+  "elementType": "FIRE",
+  "moves": [
+    {
+      "name": "INFERNO",
+      "damage": 90,
+      "elementType": "FIRE",
+      "cost": 90
+    },
+    {
+      "name": "TAIL WHIP",
+      "damage": 30,
+      "elementType": "NORMAL",
+      "cost": 20
+    },
+    {
+      "name": "EMBER",
+      "damage": 40,
+      "elementType": "FIRE",
+      "cost": 40
+    },
+    {
+      "name": "FLAME BURST",
+      "damage": 70,
+      "elementType": "FIRE",
+      "cost": 70
+      
+    }
+  ]
+}]
